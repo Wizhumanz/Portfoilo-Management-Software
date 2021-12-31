@@ -68,7 +68,7 @@ export const updateProperty = createAsyncThunk(
 );
 
 export const updateMultipleProperties = createAsyncThunk(
-    "property/update",
+    "property/updateMultiple",
     async ({user, info}) => {
         const url = process.env.REACT_APP_API_URL + `/api/property/edit`
         return axios
