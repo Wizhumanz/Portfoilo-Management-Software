@@ -1,0 +1,9 @@
+.dropdown-item {
+  text-decoration: none !important;
+}
+.dropdown-item:hover {
+  color: #614092 !important;
+}
+.primary-color{
+    color: #614092 !important;
+}
